@@ -1,0 +1,29 @@
+@import 'bootstrap';
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    background: url(/static/media/small-twitter-icon.44967f3c.png), #ffffff7d;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-blend-mode: lighten;
+}
+ul {
+    height: 500px;
+    overflow: scroll;
+}
+.card-header, .jumbotron {
+    background: #0084FF;
+    background: -webkit-linear-gradient(to left, #b3e6eb, #0084FF);
+    background: linear-gradient(to left, #b3e6eb, #0084FF);
+}
+
+input {
+    align-content: center;
+}
+
+button {
+    background-color: #0084FF;
+}
